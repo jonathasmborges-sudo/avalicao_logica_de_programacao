@@ -1,52 +1,78 @@
 #geral{
-    width: 500px;
+    width: 600px;
     min-height: 600px;
     padding: 10px;
     margin: 20px auto;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h3{
+h2, h3{
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: #1e3c58;
 }
 
-#div-form-veiculo, #div-lista-veiculos{
+#div-metas{
     width: 100%;
-    padding: 5px;
-    margin: 20px 0px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #e8f1f7;
+    border-left: 5px solid #1e3c58;
+    box-sizing: border-box;
+}
+
+#div-form-empresa,
+#div-lista-empresas{
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
     background-color: #1e3c58;
     color: #ffffff;
+    box-sizing: border-box;
 }
 
-#form-veiculo{
-    padding: 15px;
-    font-size: 1.2em;
+#form-empresa{
+    font-size: 1.1em;
 }
 
-label, input{
+label{
     display: block;
-    margin: 15px 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 input{
-    width: 460px;
-    height: 30px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 button{
-    width: 230px;
+    width: 48%;
     height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
-#div-lista-veiculos{
-    width: 100%;
-    min-height: 450px;
-    color: #ffffff;
+#div-lista-empresas{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-    
+
+.empresa{
+    background-color: #2d567a;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.empresa p{
+    margin: 8px 0;
+}
+
+hr{
+    border: 1px solid #ffffff55;
+}
